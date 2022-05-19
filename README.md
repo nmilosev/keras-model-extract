@@ -10,6 +10,14 @@ It currently supports:
 - Accessing node parents, node children, node output type
 - Accessing source layers
 
+Node properties:
+
+- `children`: children nodes (sub-layers)
+- `parent_names`: unique names of parent nodes
+- `shape`: layer output shape
+- `name`: unique layer name (from TF/Keras)
+- `__layer`: reference to the instance of the layer (if `include_layer_ref` is `True`)
+
 How it works:
 
 - It creates a pure Python tree clone of your model which is easy to walk through.
