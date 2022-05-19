@@ -24,7 +24,7 @@ How it works:
 
 # Installation
 
-This package has no depenedencies.
+This package has no dependencies.
 
 ```
 pip install keras-model-extract
@@ -32,7 +32,7 @@ pip install keras-model-extract
 
 # Example use
 
-This examples show how to iterate through a model and print all the nodes.
+This example shows how to iterate through a model and print all the nodes.
 
 ```
 >>> from keras_model_extract import copy_model_tree, iterate
